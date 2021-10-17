@@ -48,9 +48,12 @@ p {
   color: #fff;
 }
 
-img,
-p {
+img {
   transition: transform 1s ease-in-out;
+}
+
+p {
+  transition: transform 1.2s ease-in-out;
 }
 
 .slider__control {

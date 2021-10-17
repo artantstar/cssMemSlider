@@ -137,3 +137,20 @@ label:hover .bullet {
 label:active .bullet {
   background-color: lightgray;
 }
+
+/* Mobile */
+@media screen and (max-width: 800px) {
+  .slider {
+    width: 40em;
+  }
+  .slider__footer {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .slider__control {
+    width: 100%;
+    height: 4em;
+    transform: translateY(0);
+    justify-content: center;
+  }
+}
